@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+}
+.container{
+    text-align: center;
+}
+.animated-text {
+    font-size: 4em;
+    color: #fff;
+    animation: glow 1.5s ease-in-out infinite, move 5s linear infinite;
+}
+@keyframes glow{
+    0%{
+        text-shadow: 0 0 5px #5aa9e6, 0 0 10px #5aa9e6, 0 0 15px #5aa9e6, 0 0 20px #5aa9e6,
+                     0 0 30px #5aa9e6, 0 0 40px #5aa9e6, 0 0 55px #5aa9e6, 0 0 75px #5aa9e6;
+    }
+    50% {
+        text-shadow: 0 0 10px #5aa9e6, 0 0 20px #5aa9e6, 0 0 30px #5aa9e6, 0 0 40px #5aa9e6,
+                     0 0 50px #5aa9e6, 0 0 60px #5aa9e6, 0 0 70px #5aa9e6, 0 0 100px #5aa9e6;
+    }
+    100% {
+        text-shadow: 0 0 5px #5aa9e6, 0 0 10px #5aa9e6, 0 0 15px #5aa9e6, 0 0 20px #5aa9e6,
+                     0 0 30px #5aa9e6, 0 0 40px #5aa9e6, 0 0 55px #5aa9e6, 0 0 75px #5aa9e6;
+    }
+}
+@keyframes move{
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
