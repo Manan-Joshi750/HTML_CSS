@@ -58,3 +58,16 @@ This project is a static webpage clone of Amazon's main landing page, built with
 2. Uses CSS keyframes and transform properties to achieve realistic and smooth orbital movements.
 3. Allows easy customization of planet sizes, colors, and orbital speeds to represent different celestial bodies.
 4. Ensures the entire solar system is visible and maintains its layout across different devices and screen sizes.
+
+**8. Flip Card Effect**
+
+1. Card flips 180 degrees on hover, revealing different content.
+2. Front shows "SUNNY DAY", back shows "RAINY DAY" with matching images.
+3. Provides a smooth and engaging user experience.
+4. Ideal for interactive portfolios or informational cards.
+
+**9. Image Overlapping Effect**
+1. Images overlap and lift slightly on hover.
+2. Each image has a unique, colorful background.
+3. Hover effect creates a dynamic and engaging interaction.
+4. Perfect for showcasing image collections or portfolios.
