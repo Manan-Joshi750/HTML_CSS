@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: peachpuff;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 230px;
+    margin-top: 20px;
+}
+p{
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+.image{
+    position: relative;
+    margin: 0 -50px;
+    transition: 0.5s;
+    z-index: 1;
+    width: 300px;
+    height: 100%;
+    border: 5px solid white;
+}
+.img1{
+    background-image: url("https://img.freepik.com/premium-photo/sunset-beautiful-view-nature_580320-1466.jpg?w=360");
+    background-size: cover;
+}
+.img2{
+    background-image: url("https://thumbs.dreamstime.com/b/beautiful-view-nature-mountains-near-konigssee-lake-bavaria-germany-blue-sky-clouds-97444419.jpg");
+    background-size: cover;
+}
+.img3{
+    background-image: url("https://media.istockphoto.com/id/1470107894/photo/sandcut-beach-falls.webp?b=1&s=170667a&w=0&k=20&c=GrWxl7R_mNTSN-kqNV70rAqtGQi3t3Pkiie3ctli7Ig=");
+    background-size: cover;
+}
+.img4{
+    background-image: url("https://img.pikbest.com/origin/09/41/89/286pIkbEsTQAV.jpg!w700wp");
+    background-size: cover;
+}
+.img5{
+    background-image: url("https://www.wallpapers13.com/wp-content/uploads/2016/01/Beautiful-scenery-tree-sea-sunset-HD-wallpaper-3842-840x525.jpg");
+    background-size: cover;
+}
+.image:hover{
+    transform: translateY(-20px);
+    z-index: 2;
+}

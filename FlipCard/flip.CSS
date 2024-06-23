@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: peachpuff;
+}
+.card{
+    width: 500px;
+    height: 300px;
+    perspective: 1000px;
+}
+.card-inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+.card:hover .card-inner{
+    transform: rotateY(180deg);
+}
+.card-front, .card-back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+.card-front{
+    transform: rotateY(0deg);
+    background-image: url("https://t4.ftcdn.net/jpg/01/00/34/13/360_F_100341373_Pq7QzOJOLAvZaJysSYYbeZ9uqEIQV7bk.jpg");
+    background-size: cover;
+    color: black;
+}
+.card-back{
+    transform: rotateY(180deg);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/029/772/537/large_2x/human-daily-life-on-rainy-day-enjoying-rainfall-and-happy-life-lively-rainy-season-concept-generative-ai-free-photo.jpeg");
+    background-size: cover;
+    color: white;
+}
+p{
+    margin-top: 7px;
+    margin-left: 7px;
+    font-size: 25px;
+    font-weight: 300;
+}
