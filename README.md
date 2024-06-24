@@ -67,7 +67,15 @@ This project is a static webpage clone of Amazon's main landing page, built with
 4. Ideal for interactive portfolios or informational cards.
 
 **9. Image Overlapping Effect**
+
 1. Images overlap and lift slightly on hover.
 2. Each image has a unique, colorful background.
 3. Hover effect creates a dynamic and engaging interaction.
 4. Perfect for showcasing image collections or portfolios.
+
+**10. Heart Rate Animation**
+
+1. SVG element draws a heart rate line with a glowing effect using stroke properties and a blur filter.
+2. CSS animations (**@keyframes dash**) animate the line's dash offset to create a moving effect.
+3. The **#line** and **#point** paths define different aspects of the animation with stroke and filter settings.
+4. Together, these elements create a dynamic and visually appealing heart rate animation.
