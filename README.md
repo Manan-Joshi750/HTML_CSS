@@ -79,3 +79,17 @@ This project is a static webpage clone of Amazon's main landing page, built with
 2. CSS animations (**@keyframes dash**) animate the line's dash offset to create a moving effect.
 3. The **#line** and **#point** paths define different aspects of the animation with stroke and filter settings.
 4. Together, these elements create a dynamic and visually appealing heart rate animation.
+
+**11. Butterfly Share Button**
+
+1. HTML and CSS create a butterfly-style share button interface with butterfly shape using rectangular strips for social media icons.
+2. Each shape contains a FontAwesome social media icon (Facebook, Twitter, Instagram, YouTube, LinkedIn, GitHub).
+3. The butterflies have a gradient background and transform into circles when hovered.
+4. Body has a gradient background, and hexagons are centered with flexible, responsive design.
+
+**12. Thinking Hand**
+
+1. HTML and CSS create an animated hand with moving fingers.
+2. Hand consists of a palm, thumb, and four fingers styled with CSS.
+3. Fingers use keyframe animations to simulate tapping motion.
+4. Background is a radial gradient from white to light cyan.
