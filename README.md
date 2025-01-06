@@ -93,3 +93,10 @@ This project is a static webpage clone of Amazon's main landing page, built with
 2. Hand consists of a palm, thumb, and four fingers styled with CSS.
 3. Fingers use keyframe animations to simulate tapping motion.
 4. Background is a radial gradient from white to light cyan.
+
+**13. Card Design**
+
+1. Features visually appealing cards with images, tags, text, and a button.
+2. Uses rounded corners, soft colors, and Google Fonts for a sleek look.
+3. Includes hover effects for engaging user interaction.
+4. Easily adaptable for portfolios, blogs, or product displays.
