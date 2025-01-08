@@ -107,3 +107,10 @@ This project is a static webpage clone of Amazon's main landing page, built with
 2. Includes menu items with dropdown icons.
 3. Uses flexbox for layout and spacing.
 4. Adds a language selection icon.
+
+**15. UltraEdit Download Page Highlights**
+
+1. Flexbox layout with dropdown icons for key sections and a language selection option.  
+2. Highlights UltraEdit for Windows with version details and a Mac/Linux download option.  
+3. Responsive grid layout with clear download buttons for 32-bit and 64-bit options in multiple languages.  
+4. Clean design, consistent fonts, and mobile-friendly adjustments for optimal usability.  
