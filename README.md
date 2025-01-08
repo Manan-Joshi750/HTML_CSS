@@ -100,3 +100,10 @@ This project is a static webpage clone of Amazon's main landing page, built with
 2. Uses rounded corners, soft colors, and Google Fonts for a sleek look.
 3. Includes hover effects for engaging user interaction.
 4. Easily adaptable for portfolios, blogs, or product displays.
+
+**14. Minimal Navigation Bar**
+
+1. Displays a logo on the left.
+2. Includes menu items with dropdown icons.
+3. Uses flexbox for layout and spacing.
+4. Adds a language selection icon.
