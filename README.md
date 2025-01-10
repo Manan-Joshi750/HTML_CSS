@@ -1,15 +1,5 @@
-# Amazon-Clone
-This project is a static webpage clone of Amazon's main landing page, built with HTML and CSS for educational purposes.
+**Welcome to my HTML & CSS Creations Hub – a showcase of mini-projects that demonstrate the power of simple code and creative design!**  
 
-**Features Implemented:**
-1. **Replicated Layout:** Mimics the general layout and structure of Amazon's landing page.
-2. **Static Content:** Includes static images, text, and links for various sections (e.g., products, categories).
-
-**Technologies Used:**
-1. HTML
-2. CSS
-
-# More Projects
 **1. Modern Login Page**
 
 1. Features a sleek and contemporary design for a user-friendly login experience.
